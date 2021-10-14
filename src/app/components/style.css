@@ -1,0 +1,31 @@
+.input{
+    height: 50px;
+    width: 80%;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: none;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+    margin-left: 12px;
+    flex: 1;
+}
+input:active{
+    outline: none;
+}
+button{
+    padding: 5px;
+    border: 1px solid royalblue;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(102, 174, 241);
+    color: white;
+    font-size: 20px;
+}
